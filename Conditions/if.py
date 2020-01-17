@@ -17,5 +17,19 @@ x = 33
 y = 10
 if x > y:
     print('x is grater then y')
-else
+else:
     print('x is less than y')
+
+#ELIF
+a = 33
+b = 33
+if a > b:
+    print("B is greater than a")
+elif a == b:
+    print("a equals b")
+
+print("A") if a x > y else print("B")
+
+c = 500
+if a == b and b < c:        #or
+    print("true")
